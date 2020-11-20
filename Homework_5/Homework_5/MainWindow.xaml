@@ -6,24 +6,25 @@
         xmlns:local="clr-namespace:Homework_5"
         mc:Ignorable="d"
         Title="Домашняя работа №5. УТС-22 Мухаметгалина Диана Дамировна" Height="316.066" Width="493.976">
-    <Grid x:Name="Grid" Visibility="Visible">       
-            <Grid x:Name="Grid1">
-                <Label x:Name="lblXY" Content="Координаты:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
-                <Label x:Name="lblX" Content="X:" HorizontalAlignment="Left" Margin="15,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.508,0.502"/>
-                <Label x:Name="lblY" Content="Y:" HorizontalAlignment="Left" Margin="15,72,0,0" VerticalAlignment="Top"/>
-                <TextBox x:Name="tbX" HorizontalAlignment="Left" Margin="50,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                <TextBox x:Name="tbY" HorizontalAlignment="Left" Margin="50,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                <Label x:Name="lblColor" Content="Цвет:" HorizontalAlignment="Left" Margin="247,10,0,0" VerticalAlignment="Top"/>
-                <Label x:Name="lblRed" Content="Red:" HorizontalAlignment="Left" Margin="247,41,0,0" VerticalAlignment="Top"/>
-                <Label x:Name="lblGreen" Content="Green:" HorizontalAlignment="Left" Margin="247,72,0,0" VerticalAlignment="Top"/>
-                <Label x:Name="lblBlue" Content="Blue:" HorizontalAlignment="Left" Margin="247,105,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.974,0.387"/>
-                <TextBox x:Name="tbRed" HorizontalAlignment="Left" Margin="310,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                <TextBox x:Name="tbGreen" HorizontalAlignment="Left" Margin="310,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                <TextBox x:Name="tbBlue" HorizontalAlignment="Left" Margin="310,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                <Button x:Name="btnColor" Content="Изменить цвет" HorizontalAlignment="Left" Margin="320,195,0,0" VerticalAlignment="Top" Height="55" Width="100" Click="btnColor_Click" />
-                <Button x:Name="btnXY" Content="Изменить координаты" HorizontalAlignment="Left" Margin="50,195,0,0" VerticalAlignment="Top" Width="130" Height="55" Click="btnXY_Click"/>
-                <TextBox x:Name="tbPixel" HorizontalAlignment="Center" Margin="0,150,0,0" Text="Пиксель" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" FontSize="14" TextAlignment="Center" Height="24" IsEnabled="False"/>
-            </Grid>
+    <Grid x:Name="Grid" Visibility="Visible">
+        <Grid x:Name="Grid1">
+            <Label x:Name="lblXY" Content="Координаты:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lblX" Content="X:" HorizontalAlignment="Left" Margin="15,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.508,0.502"/>
+            <Label x:Name="lblY" Content="Y:" HorizontalAlignment="Left" Margin="15,72,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="tbX" HorizontalAlignment="Left" Margin="50,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="tbY" HorizontalAlignment="Left" Margin="50,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label x:Name="lblColor" Content="Цвет:" HorizontalAlignment="Left" Margin="247,10,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lblRed" Content="Red:" HorizontalAlignment="Left" Margin="247,41,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lblGreen" Content="Green:" HorizontalAlignment="Left" Margin="247,72,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lblBlue" Content="Blue:" HorizontalAlignment="Left" Margin="247,105,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.974,0.387"/>
+            <TextBox x:Name="tbRed" HorizontalAlignment="Left" Margin="310,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="tbGreen" HorizontalAlignment="Left" Margin="310,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="tbBlue" HorizontalAlignment="Left" Margin="310,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Button x:Name="btnColor" Content="Изменить цвет" HorizontalAlignment="Left" Margin="320,195,0,0" VerticalAlignment="Top" Height="55" Width="100" Click="btnColor_Click" />
+            <Button x:Name="btnXY" Content="Изменить координаты" HorizontalAlignment="Left" Margin="40,195,0,0" VerticalAlignment="Top" Width="130" Height="55" Click="btnXY_Click"/>
+            <TextBox x:Name="tbPixel" HorizontalAlignment="Center" Margin="0,150,0,0" Text="Пиксель" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" FontSize="14" TextAlignment="Center" Height="24" IsEnabled="False"/>
+            <Label x:Name="lblResult" Content="" HorizontalAlignment="Left" Margin="202,197,0,0" VerticalAlignment="Top" Width="104"/>
+        </Grid>
         <Grid x:Name="Grid2" Visibility="Hidden" Background="White" HorizontalAlignment="Stretch">
             <Grid x:Name="Grid3" Margin="0,304,0,-304" Visibility="Hidden" Background="White">
                 <Label x:Name="lblXY3" Content="Координаты:" HorizontalAlignment="Left" Margin="46,20,0,0" VerticalAlignment="Top"/>

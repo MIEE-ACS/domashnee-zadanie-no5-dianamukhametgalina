@@ -71,6 +71,7 @@ namespace Homework_5
             {
                 UpdateWindow();
             }
+            lblResult.Content = ($"({pixel.X};{pixel.Y})");
         }
         public void UpdateWindow()
         {
